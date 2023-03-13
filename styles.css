@@ -22,4 +22,16 @@ a {
     background-size: cover;
     height: 100vh;
     overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart{
+    background: rgb(214, 195, 195);
+    height:200px;
+    width:30vw;
+    color:black;
+    border-radius: 20px;
+    padding:10px 15px
 }
