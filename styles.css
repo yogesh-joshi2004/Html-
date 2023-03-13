@@ -1,12 +1,25 @@
-p{
-    color:blue
+p {
+    color: blue
 }
-h1{
-    color:black
+
+h1 {
+    color: black
 }
-h2{
-    color:red
+
+h2 {
+    color: red
 }
-a{
-    color:blue
+
+a {
+    color: blue
+}
+
+.bg {
+    background-image: url("./assets/photo-1629946266592-8a82b745ffb2.avif");
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
 }
