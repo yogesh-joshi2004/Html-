@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        div {
+            background-color: rgb(43, 226, 186)
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <base>
+        <div>
+            <h1>Please Fill tha form</h1>
+
+            <form action="/index.html">
+                Name:<input type="text" placeholder="your name"><br>
+                Gender:
+                <label for="other">
+                    <input type="radio" velue="other" name="gender" id="other">other</label>
+                <label for="male">
+                    <input type="radio" velue="male" name="gender" id="male">male</label>
+                <label for="female">
+                    <input type="radio" velue="female" name="gender" id="female">female</label>
+                <br>
+                date of birth:
+                <input type="date"><br>
+                you are happy:
+                <input type="checkbox" id="checkbox"><br>
+                <textarea placeholder="aapne baarecme likho" cols="30" rows="10"></textarea>
+                <select name="brend" id="brend">
+                    <option value="no brand">select</option>
+                    <option value="g">hp</option>
+                    <option value="d">deal</option>
+                    <option value="f">redme</option>
+                </select>
+            </form>
+        </div>
+    </center>
+    </base>
+</body>
+
+</html>
